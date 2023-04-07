@@ -1,0 +1,116 @@
+body{
+    background-color: purple;
+}
+#define{
+    margin-top: 10%;
+    background-color:black;
+    height: 600px;
+    width: 400px;
+    color: white;
+    border: black 4px solid;
+    border-radius: 1rem;
+    margin-left: 35%
+}
+#checkout{
+    height: 60px;
+ width: 140px;
+ background: linear-gradient(to left,purple,black);
+ text-align: center;
+ cursor: pointer;
+ color: white;
+ padding: 10px;
+ font-size: 1.5em;
+ margin-left: 30%;
+ transition: all 1s;
+ /* box-shadow: -5px 2px 5px blue; */
+}
+#checkout:hover{
+ box-shadow: -5px 2px 5px blue;
+
+}
+#checkout:active{
+    scale: 1.1;
+}
+#billtotal{
+    /* margin: 10px; */
+    letter-spacing: normal;
+    /* box-shadow: 5px -10px 5px blue; */
+    width: 100%;
+    background:transparent;
+    outline: 0;
+    padding: 10px;
+    border: 0;
+    margin: 2px;
+    font-size: larger;
+}
+#viv{
+    background-color: white;
+    margin: 15px ;
+    display: flex;
+    align-items: center;
+    border: black 2px solid;
+    height:55px;
+    justify-content: space-around;
+    font-size: 1.2em; 
+    border-radius: 1rem;
+}
+#tip{
+    width: 100%;
+    background:transparent;
+    outline: 0;
+    padding: 10px;
+    border: 0;
+    font-size: larger;
+
+}
+#v{
+    margin: 10px;
+    /* te-shadow:-2px 3px 5px black ; */
+    /* writing-mode: horizontal-lr; */
+}
+#bill{
+    margin: 10px;
+}
+#plus{
+    font-size: 3em;
+    font-weight: bolder;
+    background-color: purple;
+    color: white;
+    clip-path: circle();
+    padding: 6px;
+}
+#minus{
+    font-size: 3em;
+    font-weight: bolder;
+    background-color: purple;
+    color: white;
+    clip-path: circle();
+    padding:13px;
+    margin: 5px;
+}
+#one{
+    font-size: 3em;
+    font-weight: lighter;
+}
+#total{
+    position: relative;
+    
+    left: 200px;
+    bottom: 24.3%;
+}
+#bal{
+    margin: 5px;
+    font-size: 2.7em;
+}
+#people{
+    margin: 0%;
+    padding: 0%;
+    font-size: 1.7em;
+}
+#per{
+    font-size: 1.6em;
+}
+#tiptotal{
+font-size: 1.9em;
+    color: rgba(0, 0, 0, 0.904);
+}

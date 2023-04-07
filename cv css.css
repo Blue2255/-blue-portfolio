@@ -1,0 +1,152 @@
+body{
+    /* background: rgb(0, 0, 0); */
+    background: rgba(128, 128, 128, 0.798); 
+    color: rgb(213, 208, 208);
+    font-family: 'Neuton', serif;
+}
+#letter{
+
+    margin-left: 26%;
+    align-items: center;
+    text-transform: capitalize;
+}
+#header{
+    font-size: 3em;
+    margin-left: 8%;
+    font-weight: 900;
+    /* text-transform: capitalize; */
+    animation-name: header;
+}
+#add{
+    font-size: 1.6em;
+    margin-bottom: 3px;
+    margin-left: 0;
+}
+span{
+    font-size: 1.4em;
+    font-weight: 700;
+margin-left: 3%;
+/* margin-top: 2; */
+}
+#span{
+    margin: 5px;
+}
+#tel{
+    padding-bottom: 5%;
+    margin-left: 14%;
+}
+#hi{
+    color: rgb(29, 196, 214);
+    font-size: 1.16em;
+}
+#second{
+    margin-left: 7%;
+}
+#car{
+    font-size: 2em;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+section{
+    font-size: 1.6em;
+    font-weight: 700;
+    /* text-transform: capitalize; */
+}
+#bio{
+    font-size: 1.8em;
+    text-decoration: underline;
+   
+}
+#inst{
+    font-size: 1.95em;
+    text-decoration: underline;
+    /* margin-right: 10%; */
+   
+}
+#every{
+    height: 100%;
+    width: 85%;
+     background: radial-gradient(circle ,rgb(3, 3, 85) 70%,black 30%); 
+    /* background: black; */
+    margin-left: 9%;
+    /* box-shadow: -13px 5px 10px rgba(0, 128, 24, 0.633); */
+    border: 1px solid transparent;
+   border-radius: 3em;
+    transition: all 2s ease-in-out;
+}
+@media screen and (max-width: 600px){
+    #every{
+        height: 100%;
+        width: 100%; 
+       
+    }
+    #hi{
+        margin: 0;
+        font-size: 1em;
+    }
+    #g{
+        margin-left: 0%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #hl{
+        margin-left: 15%;
+     font-size: 1.2em;
+
+    }
+    #yr{
+     font-size: 1.2em;
+    }
+}
+#every:hover{
+    scale: 1.007;
+    box-shadow: -15px 5px 10px rgb(3, 3, 85) ;
+ /* background: rgb(0, 0, 0);  */
+ /* background: linear-gradient(to top right ,rgb(3, 3, 85) 70%,black 30%);  */
+
+color: rgb(29, 196, 214);
+
+}
+#g{
+    margin-left: 7%;
+}
+#hl{
+    margin-left:18%;
+}
+#yr{
+    margin-left: 0;
+}
+.amendiv{
+    margin: 20px;
+text-align: center;
+font-size: 1.09em;
+width: 12vw;
+height: 6vh;
+border: 2px solid rgb(14, 241, 135); 
+/* font-size: 1.12em; */
+border: 3px solid rgb(14, 241, 135);
+border-radius: 1.6rem;
+color: black;
+text-align: center;
+background-color: aqua;
+animation-name: godswill;
+animation-iteration-count: infinite;
+/* -webkit-animation: ;  */
+transition: ease-in-out;
+animation-duration: 2.2s;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-transform: capitalize;
+}
+.amen{
+    margin-top: 9px;
+    font-size: 1.09em;
+}
+@keyframes godswill{
+40%{
+    /* background-color:black; */
+
+}
+25%{
+    transform: scale(1.07);
+}
+}
